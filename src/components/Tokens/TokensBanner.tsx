@@ -14,7 +14,7 @@ const BackgroundColor = styled(Link)<{ show: boolean }>`
   background-color: ${({ theme }) => (theme.darkMode ? theme.backgroundScrim : '#0D0BB1')};
   border: 1px solid ${({ theme }) => theme.backgroundOutline};
   border-radius: 12px;
-  bottom: 48px;
+  bottom: -70px;
   box-shadow: ${({ theme }) => theme.deepShadow};
   display: ${({ show }) => (show ? 'block' : 'none')};
   height: 88px;
@@ -74,7 +74,7 @@ export default function TokensBanner() {
           <Header>
             <HeaderText>
               <Trans>
-                <a href="https://svgshare.com/s/o0D">
+                <a href="https://svgshare.com/i/o0D">
                   <img src="https://svgshare.com/i/o0D.svg" title="" />
                 </a>
               </Trans>
